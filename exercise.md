@@ -29,7 +29,7 @@ The port of `cartservice` Service is `7070`, change it to `7078`.
 
 ### Autoscale the Product catalog
 
-The `productcatalogservice` Deployment is running as a single instance deployment. Configure an HorizontalPodAutoscaler to autoscale the deployment's pods. Set the min replicas as `1`, max as `3`. Set the target CPU utilization to `60%`.
+The `productcatalogservice` Deployment is running as a single instance deployment. Configure an HorizontalPodAutoscaler to autoscale the deployment's pods. Set the min replicas as `1`, max as `4`. Set the target CPU utilization to `60%`.
 
 In order to test the autoscaler in action, run the load test.
 
